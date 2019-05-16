@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+.button{
+  width:10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.text{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+</style>
+</head>
+<body>
+    <form action="login.html">
+      <input type="submit" value="Logout"/>
+    </form>
+  <form action="addClient.php" method="POST">
+    <h3><pre style="font-family:Times New Roman">
+Name        : <input type="text" class="text" name="cname"/><br>
+Project     : <input type="text" class="text" name="pname"/><br>
+Password : <input type="password" class="text" name="password"/><br></h3>
+    <input type="submit" class="button" value="AddAccount">
+  </pre>
+  </form>
+  </body>
+  </html>

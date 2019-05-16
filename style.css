@@ -1,0 +1,86 @@
+html,body{
+  margin:0;
+  padding:0;
+  width:100%;
+}
+body
+{
+    width:100%;
+    height:100vh;
+    background-image:url(bg5.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family:Didot;
+}
+.navi{
+  position: fixed;
+  top:0;
+  left:0;
+  padding:0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.logo{
+  letter-spacing: 1px;
+  float:left;
+  color:white;
+  font-size:24px;
+  line-height: 80px;
+  padding:0 6em;
+}
+.menu{
+    margin:0 6em;
+    float:right;
+    line-height:50px;
+}
+.menu ul{
+  list-style:none;
+}
+.menu ul li{
+  margin:5px;
+  display:inline-block;
+}
+.menu ul li a{
+  text-decoration:none;
+  color:white;
+  font-size:16px;
+  font-weight:lighter;
+  padding: 0 20px;
+}
+ul li:nth-child(n) a{
+
+  border: 1px solid white;
+  padding:10px 20px;
+  border-radius:4px;
+}
+ul li:nth-child(n) a:hover{
+  color:white;
+  border:1px solid green;
+  background-color:green;
+}
+
+.header{
+  position:absolute;
+  color:white;
+  text-align:center;
+  top:35%;
+  left:35%;
+  transform: translate(-38% -38%);
+}
+.header h1{
+  font-weight:300;
+  font-size:45px;
+  margin:bottom:8px;
+}
+.header p{
+  font-size: 20px;
+  font-weight:lighter;
+}
+.header form button{
+  font-size: 20px;
+  font-weight:lighter;
+  background-color: green;
+  color:white;
+}
